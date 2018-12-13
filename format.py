@@ -2,7 +2,7 @@ import os
 import string
 import sys
 
-path =  "latest/tungsten_off_wc_results/"
+path =  sys.argv[1]
 files = os.listdir(path)
 # f2 = []
 # for f in files:

@@ -1,0 +1,83 @@
+		
+Elapsed Time	102.291912	18.999696	2922.850549
+Clockticks	2714651100000	333438000000	3348534000000
+Instructions Retired	3395410200000	398332200000	7395294900000
+CPI Rate	0.799506	0.837085	0.452792
+MUX Reliability	0.999430	0.983011	0.994234
+Front-End Bound	26.0	25.4	19.0
+Front-End Latency	11.8	13.4	8.7
+ICache Misses	1.0	1.7	0.7
+ITLB Overhead	0.1	0.2	0.2
+Branch Resteers	1.1	3.6	2.4
+Mispredicts Resteers	0.8	2.7	2.0
+Clears Resteers	0.1	0.0	0.1
+Unknown Branches	0.2	0.9	0.3
+DSB Switches	4.3	2.6	2.8
+Length Changing Prefixes	0.0	0.0	0.0
+MS Switches	4.9	3.9	2.6
+Front-End Bandwidth	14.2	12.0	10.3
+Front-End Bandwidth MITE	27.7	22.3	16.0
+Front-End Bandwidth DSB	11.3	11.1	15.8
+Front-End Bandwidth LSD	2.3	1.5	1.5
+(Info) DSB Coverage	35.0	38.3	50.0
+(Info) LSD Coverage	9.7	12.0	14.4
+Bad Speculation	1.6	4.7	3.4
+Branch Mispredict	1.4	4.7	3.3
+Machine Clears	0.2	0.0	0.1
+Back-End Bound	12.9	20.2	20.1
+Memory Bound	7.4	12.7	7.2
+L1 Bound	17.2	14.0	5.3
+DTLB Overhead	4.8	3.8	1.2
+Loads Blocked by Store Forwarding	0.0	0.1	0.1
+Lock Latency	0.0	0.0	0.0
+Split Loads	0.2	0.0	0.1
+4K Aliasing	1.7	2.4	7.4
+FB Full	100.0	83.5	42.6
+L2 Bound	1.9	1.6	1.6
+L3 Bound	1.6	3.4	1.7
+Contested Accesses	0.1	1.1	0.3
+Data Sharing	0.1	0.1	0.4
+L3 Latency	3.5	7.0	8.1
+SQ Full	10.1	3.6	1.1
+DRAM Bound	5.4	8.6	4.8
+Memory Bandwidth	30.6	32.5	17.7
+Memory Latency	54.2	55.0	65.4
+Local DRAM	8.3	12.2	15.1
+Remote DRAM	0.0	0.0	0.1
+Remote Cache	0.0	0.0	0.0
+Store Bound	9.5	11.1	8.1
+Store Latency	28.4	26.4	27.8
+Store L2	3.5	2.8	6.2
+Store L3	7.4	6.9	4.2
+Store Memory	17.5	16.6	17.4
+False Sharing	0.2	0.2	0.1
+Split Stores	0.5	0.4	0.6
+DTLB Store Overhead	0.6	0.7	0.2
+Core Bound	5.5	7.5	12.8
+Divider	0.0	0.0	0.0
+Port Utilization	26.4	22.7	38.4
+Cycles of 0 Ports Utilized	82.0	66.3	42.5
+Cycles of 1 Port Utilized	12.1	11.5	6.4
+Cycles of 2 Ports Utilized	19.9	16.0	9.7
+Cycles of 3+ Ports Utilized	50.0	38.9	26.3
+Port 0	31.5	25.2	30.9
+Port 1	30.0	26.2	30.4
+Port 2	37.0	35.7	37.3
+Port 3	38.2	36.3	38.6
+Port 4	30.9	29.9	31.1
+Port 5	30.5	26.5	31.5
+Port 6	46.2	41.9	45.8
+Port 7	15.3	15.4	16.4
+Vector Capacity Usage (FPU)	25.0	0.0	25.0
+Retiring	59.5	49.7	57.5
+General Retirement	54.1	45.6	52.6
+FP Arithmetic	0.0	0.0	0.0
+FP x87	0.0	0.0	0.0
+FP Scalar	0.0	0.0	0.0
+FP Vector	0.0	0.0	0.0
+Other	100.0	100.0	100.0
+Microcode Sequencer	5.4	4.1	4.9
+Assists	0.0	0.0	0.0
+Total Thread Count	151	145	149
+Paused Time	0.0	0.0	0.0
+Frame Count	76	26	1215
