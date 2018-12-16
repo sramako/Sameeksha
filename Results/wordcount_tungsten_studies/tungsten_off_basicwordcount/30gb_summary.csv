@@ -1,0 +1,96 @@
+Hierarchy Level	Metric Name	Metric Value
+0	Elapsed Time	1015.230940
+1	Clockticks	2909554200000
+1	Instructions Retired	6172622400000
+1	CPI Rate	0.471364
+1	MUX Reliability	0.997583
+1	Front-End Bound	10.9
+2	Front-End Latency	4.2
+3	ICache Misses	1.2
+3	ITLB Overhead	0.4
+3	Branch Resteers	3.1
+4	Mispredicts Resteers	2.6
+4	Clears Resteers	0.1
+4	Unknown Branches	0.5
+3	DSB Switches	0.5
+3	Length Changing Prefixes	0.0
+3	MS Switches	2.9
+2	Front-End Bandwidth	6.7
+3	Front-End Bandwidth MITE	3.4
+3	Front-End Bandwidth DSB	26.7
+3	Front-End Bandwidth LSD	0.6
+3	(Info) DSB Coverage	79.0
+3	(Info) LSD Coverage	13.7
+1	Bad Speculation	3.5
+2	Branch Mispredict	3.4
+2	Machine Clears	0.1
+1	Back-End Bound	33.7
+2	Memory Bound	13.6
+3	L1 Bound	7.1
+4	DTLB Overhead	2.6
+4	Loads Blocked by Store Forwarding	0.1
+4	Lock Latency	0.0
+4	Split Loads	0.1
+4	4K Aliasing	6.4
+4	FB Full	53.5
+3	L2 Bound	1.7
+3	L3 Bound	2.3
+4	Contested Accesses	0.9
+4	Data Sharing	0.3
+4	L3 Latency	10.6
+4	SQ Full	1.1
+3	DRAM Bound	7.4
+4	Memory Bandwidth	25.8
+4	Memory Latency	50.2
+5	Local DRAM	23.1
+5	Remote DRAM	0.2
+5	Remote Cache	0.0
+3	Store Bound	9.2
+4	Store Latency	25.6
+5	Store L2	4.5
+5	Store L3	5.2
+5	Store Memory	15.8
+4	False Sharing	0.1
+4	Split Stores	0.4
+4	DTLB Store Overhead	0.3
+2	Core Bound	20.1
+3	Divider	2.2
+3	Port Utilization	41.0
+4	Cycles of 0 Ports Utilized	40.6
+4	Cycles of 1 Port Utilized	7.7
+4	Cycles of 2 Ports Utilized	10.3
+4	Cycles of 3+ Ports Utilized	22.6
+5	Port 0	27.3
+5	Port 1	25.3
+5	Port 2	38.9
+5	Port 3	40.2
+5	Port 4	27.6
+5	Port 5	25.4
+5	Port 6	42.6
+5	Port 7	16.6
+4	Vector Capacity Usage (FPU)	20.9
+1	Retiring	51.8
+2	General Retirement	50.2
+3	FP Arithmetic	0.2
+4	FP x87	0.1
+4	FP Scalar	0.2
+4	FP Vector	0.0
+3	Other	99.8
+2	Microcode Sequencer	1.6
+3	Assists	0.0
+1	Total Thread Count	157
+1	Paused Time	0.0
+1	Frame Count	106
+0	Collection and Platform Info	
+1	Application Command Line	./driver 
+1	User Name	root
+1	Operating System	4.4.0-64-generic NAME="Ubuntu" VERSION="16.04.3 LTS (Xenial Xerus)" ID=ubuntu ID_LIKE=debian PRETTY_NAME="Ubuntu 16.04.3 LTS" VERSION_ID="16.04" HOME_URL="http://www.ubuntu.com/" SUPPORT_URL="http://help.ubuntu.com/" BUG_REPORT_URL="http://bugs.launchpad.net/ubuntu/" VERSION_CODENAME=xenial UBUNTU_CODENAME=xenial
+1	Computer Name	ubuntu
+1	Result Size	1960943776
+1	Collection start time	03:24:09 16/12/2018 UTC
+1	Collection stop time	03:41:04 16/12/2018 UTC
+1	Collector Type	Event-based sampling driver
+1	CPU	
+2	Name	Intel(R) Xeon(R) Processor code named Broadwell
+2	Frequency	2099998525
+2	Logical CPU Count	32
