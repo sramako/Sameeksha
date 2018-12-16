@@ -4,10 +4,7 @@ import sys
 
 path =  sys.argv[1]
 files = os.listdir(path)
-# f2 = []
-# for f in files:
-# 	f2.append(path+f)
-# f2.sort(key=os.path.getctime)
+
 def real_value(x):
 	convert = {}
 	convert["million"]=1000000
@@ -36,24 +33,26 @@ def push(list):
 		# print i
 		data[i] += '\t'+list[i]
 
-print files
 for file in files:
+	# print file
 	f = open(path+file,'r')
 	temp = []
 	for line in f:
-		temp.append(line.split('\t')[2][:-1])
+		temp.append(line.split('\t')[2][:-2])
 	# print temp
 	push(temp)
 	f.close()
 
 for i in files:
 	temp = string.split(i,'.')[0]
-	headers.append(temp[4:])
+	headers.append(temp[:4])
 
 data[0] = '\t'.join(headers)
 data = data[:83]
 output = string.split(path,'/')[-2]
-o = open(output+".csv",'w')
+OutputPath = 'Tool_Data/'
+os.system('mkdir -p '+OutputPath)
+o = open(OutputPath+output+".csv",'w')
 for line in data:
 	o.write(str(line))
 	o.write('\n')

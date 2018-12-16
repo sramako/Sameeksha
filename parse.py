@@ -5,10 +5,10 @@ from matplotlib.backends.backend_pdf import PdfPages
 import sys
 import string
 
-name=sys.argv[1].split('.')[1][1:]
+name=sys.argv[1].split('.')[0]
 print("name="+name)
 
-path = "C:\\Users\\srama\\Documents\\Big Data\\ccbd\\"
+path = "Tool_Data/"
 file = open(path+sys.argv[1],'r')
 data = []
 
@@ -18,6 +18,7 @@ h = 1
 for i in file:
 	s=i[:-1]
 	data.append(s.split('\t'))
+	print(s.split('\t'))
 file.close()
 
 headers = data[0]
@@ -27,10 +28,8 @@ headers
 
 n = len(headers)
 y = [i for i in range(0,n)]
-n
-y
 
-with PdfPages(path+'test.pdf') as pdf:
+with PdfPages('./Tool_Output/'+name+'.pdf') as pdf:
 	for i in data:
 		title = i[0]
 		val = i[1:]

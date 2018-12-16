@@ -1,0 +1,83 @@
+01gb	10gb	20gb	30gb	40gb	50gb
+Elapsed Time	20.215281	303.262523	341.355426	818.648981	745.503270	1543.793641
+Clockticks	333960900000	1644934200000	4491715200000	4021819200000	4095428400000	3992814000000
+Instructions Retired	410949000000	3549613200000	6986485800000	9340619400000	9139622100000	8931266400000
+CPI Rate	0.812658	0.463412	0.642915	0.430573	0.448096	0.447060
+MUX Reliability	0.990246	0.998005	0.998818	0.999457	0.999531	0.999059
+Front-End Bound	24.9	20.4	24.3	20.2	21.1	21.4
+Front-End Latency	12.3	9.3	10.7	8.7	9.3	9.4
+ICache Misses	1.3	0.8	0.7	0.6	0.6	0.6
+ITLB Overhead	0.2	0.2	0.1	0.1	0.1	0.2
+Branch Resteers	3.1	1.4	1.1	1.1	1.0	2.3
+Mispredicts Resteers	2.3	0.9	0.8	0.7	0.7	2.0
+Clears Resteers	0.0	0.1	0.1	0.1	0.1	0.1
+Unknown Branches	0.8	0.4	0.2	0.3	0.3	0.3
+DSB Switches	2.8	3.1	4.1	3.2	3.1	3.2
+Length Changing Prefixes	0.0	0.0	0.0	0.0	0.0	0.0
+MS Switches	4.1	3.1	4.4	2.7	3.7	3.3
+Front-End Bandwidth	12.5	11.1	13.6	11.5	11.9	11.9
+Front-End Bandwidth MITE	23.3	16.7	24.5	17.8	18.8	19.4
+Front-End Bandwidth DSB	11.5	15.9	13.9	15.5	15.8	14.8
+Front-End Bandwidth LSD	1.5	1.3	1.6	1.0	1.4	0.9
+(Info) DSB Coverage	38.4	49.0	40.8	47.0	48.4	44.4
+(Info) LSD Coverage	11.7	14.1	10.7	14.4	11.4	13.9
+Bad Speculation	5.2	1.9	1.5	1.6	1.6	3.2
+Branch Mispredict	5.2	1.7	1.4	1.5	1.4	3.1
+Machine Clears	0.0	0.2	0.2	0.2	0.2	0.1
+Back-End Bound	20.2	18.6	13.0	17.4	16.0	17.7
+Memory Bound	12.1	6.9	7.5	6.4	6.0	5.9
+L1 Bound	14.8	7.0	14.4	6.1	7.1	5.2
+DTLB Overhead	4.6	1.9	5.6	2.0	2.7	2.0
+Loads Blocked by Store Forwarding	0.1	0.2	0.0	0.2	0.1	0.1
+Lock Latency	0.0	0.0	0.0	0.0	0.0	0.0
+Split Loads	0.0	0.2	0.2	0.1	0.2	0.1
+4K Aliasing	3.1	6.5	3.8	6.2	6.1	6.7
+FB Full	76.3	57.4	68.7	51.2	54.5	40.2
+L2 Bound	0.3	0.8	1.1	0.8	0.9	1.2
+L3 Bound	3.5	1.5	1.3	1.3	1.2	1.7
+Contested Accesses	0.6	0.6	0.1	0.5	0.4	0.3
+Data Sharing	0.0	0.6	0.1	0.6	0.3	0.2
+L3 Latency	7.7	6.5	3.4	6.2	5.3	7.7
+SQ Full	3.7	1.8	5.7	1.6	1.6	0.9
+DRAM Bound	8.7	5.8	6.1	4.7	4.6	3.6
+Memory Bandwidth	30.9	22.0	27.6	20.5	21.7	20.3
+Memory Latency	53.0	57.8	55.7	55.9	57.4	66.8
+Local DRAM	12.1	17.4	11.2	16.0	13.0	11.9
+Remote DRAM	0.0	0.0	1.5	0.2	0.7	0.1
+Remote Cache	0.0	0.0	0.0	0.0	0.0	0.0
+Store Bound	8.9	9.0	8.5	8.9	8.9	7.9
+Store Latency	29.4	25.0	26.3	24.9	24.1	27.0
+Store L2	3.0	5.8	4.5	6.2	6.3	6.4
+Store L3	7.0	4.4	5.3	4.0	3.8	3.9
+Store Memory	19.5	14.8	16.5	14.6	14.0	16.8
+False Sharing	0.4	0.1	0.2	0.1	0.1	0.0
+Split Stores	0.4	0.4	0.5	0.5	0.5	0.6
+DTLB Store Overhead	0.7	0.6	1.1	0.5	0.5	0.4
+Core Bound	8.1	11.7	5.5	10.9	10.0	11.8
+Divider	0.0	0.0	0.0	0.0	0.0	0.0
+Port Utilization	24.3	40.4	23.2	37.4	38.1	39.3
+Cycles of 0 Ports Utilized	64.6	45.0	68.4	43.5	44.9	42.0
+Cycles of 1 Port Utilized	10.0	6.6	9.8	6.3	6.0	6.2
+Cycles of 2 Ports Utilized	16.3	10.6	16.5	9.6	10.1	10.0
+Cycles of 3+ Ports Utilized	38.3	27.8	42.1	27.5	28.9	25.8
+Port 0	26.2	31.5	31.5	32.3	30.1	29.5
+Port 1	25.8	30.3	31.2	31.4	31.1	29.6
+Port 2	34.4	37.8	38.1	38.9	39.4	39.2
+Port 3	35.2	39.0	39.0	40.2	40.6	39.8
+Port 4	28.5	31.7	32.0	32.8	33.5	33.3
+Port 5	25.6	31.8	31.9	33.1	32.5	30.8
+Port 6	41.2	46.4	47.2	47.5	46.3	45.7
+Port 7	14.4	16.8	16.1	17.7	17.8	17.4
+Vector Capacity Usage (FPU)	0.0	25.0	25.0	25.0	25.0	25.0
+Retiring	49.7	59.1	61.1	60.8	61.3	57.8
+General Retirement	45.7	53.8	55.6	55.6	55.5	52.5
+FP Arithmetic	0.0	0.0	0.0	0.0	0.0	0.0
+FP x87	0.0	0.0	0.0	0.0	0.0	0.0
+FP Scalar	0.0	0.0	0.0	0.0	0.0	0.0
+FP Vector	0.0	0.0	0.0	0.0	0.0	0.0
+Other	100.0	100.0	100.0	100.0	100.0	100.0
+Microcode Sequencer	4.0	5.2	5.6	5.2	5.8	5.2
+Assists	0.0	0.0	0.0	0.0	0.0	0.0
+Total Thread Count	146	150	151	123	123	117
+Paused Time	0.0	0.0	0.0	0.0	0.0	0.0
+Frame Count	37	112	133	213	220	518
