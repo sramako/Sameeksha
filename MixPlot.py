@@ -76,7 +76,7 @@ with PdfPages('./Tool_Output/'+"Output"+'.pdf') as pdf:
 			data[num] = eval(data[num])
 
 		plt.clf()
-		plt.bar(y, data, align='center', alpha=0.5, color=colors, width=1.0)
+		plt.bar(y, data, align='center', alpha=0.5, color=colors, edgecolor='black', width=1.0)
 		plt.xticks(y, headers,rotation=90)
 		plt.ylabel(title)
 		plt.title(name)
